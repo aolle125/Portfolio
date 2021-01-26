@@ -1,0 +1,150 @@
+<div class="section" id="projects">
+  <div class="container cc-education">
+      <div class="h4 text-center mb-4 title">Academic Projects</div>
+<div class="colorlib-narrow-content">
+ 
+  <div class="row">
+      <div class="col-md-12">
+       <div class="timeline-centered">
+           <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+              <div class="timeline-entry-inner">
+
+                 <div class="timeline-icon color-1">
+                    <i class="icon-pen2"></i>
+                 </div>
+
+                 <div class="timeline-label">
+                  <h2>Predicting Author Demographics from textual data <span> Aug 2020 - Dec 2020</span></h2>
+                   <h4>George Mason University</h4>
+                  <ul>
+                   <li>Developed a model that predicts the age and gender of an author given textual data using classification and regression algorithms such as Multivariate 
+                     Linear Regression with Lasso Regularization, Support Vector Machines and Deep Neural Networks</li>
+                   <li>Stylistic (POS-Tags, Unigrams), content-based (Special Words, Slang Words) and word embeddings (Word2Vec) were used to extract 
+                     features from the text, that prove as important descriptors towards our prediction</li>
+                   <li>Neural Networks with one hidden layer with the feature set extracted using Word2Vec 
+                     gave the best MAE of 4.10 and a r-coefficient of 0.64 for age prediction and an accuracy of 89% for gender prediction  </li>
+                     <li>Technologies Used: <strong>Python, NLTK, Scikit-learn, Keras, Matplotlib, Gensim</strong></li>
+                     <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/aolle125/Author-Age-Prediction-from-Textual-Data"
+                target="_blank" rel="tooltip" title="Predicting Author Demographics from textual data ">
+                <i class="fa fa-book"></i>
+              </a>
+                  </ul>
+                 
+                 </div>
+              </div>
+           </article>
+
+
+           <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+              <div class="timeline-entry-inner">
+                 <div class="timeline-icon color-2">
+                    <i class="icon-pen2"></i>
+                 </div>
+                  <div class="timeline-label">
+                  <h2>Hybrid Movie Recommendation System  <span>Nov 2020 - Dec 2020</span></h2>
+                   <h4> George Mason University</h4>
+                   <ul>
+                      <li>Developed a Hybrid Recommender System using Alternating Least Squares and Item-Item Collaborative Filtering in PySpark 
+                        using SparkML on the Movie Lens 20M dataset  </li>
+                      <li>The data was stored and read from an Amazon S3 Bucket and our PySpark
+                         notebook was deployed using an Amazon EMR Cluster to distribute the data and processing across a resizable cluster of EC2 instances</li>
+                         <li>The hybrid recommender system gave us an RMSE of 0.69 which is an improvement over RMSE calculated on the two recommendation algorithms 
+                           individually, which was 0.86 and 0.79, respectively</li>
+                           <li>Technologies Used: <strong>Python, Spark, SparkML, AWS EC2, AWS EMR</strong></li>
+                           <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/aolle125/Hybrid-Movie-Recommendation"
+                target="_blank" rel="tooltip" title="Hybrid Movie Recommendation System  ">
+                <i class="fa fa-book"></i>
+              </a>
+                  </ul>
+                  
+                 </div>
+              </div>
+           </article>
+
+
+           <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+            <div class="timeline-entry-inner">
+               <div class="timeline-icon color-2">
+                  <i class="icon-pen2"></i>
+               </div>
+                <div class="timeline-label">
+                <h2>Topic Modelling using LDA  <span>Sep 2020</span></h2>
+                 <h4> George Mason University</h4>
+                 <ul>
+                    <li>Topic Modelling is an unsupervised classification algorithm for topic modelling 
+                       to group documents based on a given set of important terms/keywords.  </li>
+                    <li>We make the use of pyspark.ml.clustering.LDA for performing LDA on our document corpus.</li>
+                       <li>For finding the value of k, after multiple runs, the number of topics being 25 was the perfect fit and gave the best results.
+                        The value of logPerplexity for k = 25 is 7.712397571620074, and this was the a good balance between number of topics and the 
+                        perplexity that we could find for a set of k values between 10 and 250.</li>
+                         <li>Technologies Used: <strong>Python, Spark, SparkML</strong></li>
+                         <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/aolle125/Topic-Modelling-using-LDA"
+              target="_blank" rel="tooltip" title="Topic Modelling using LDA">
+              <i class="fa fa-book"></i>
+            </a>
+                </ul>
+                
+               </div>
+            </div>
+         </article>
+
+         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+            <div class="timeline-entry-inner">
+               <div class="timeline-icon color-2">
+                  <i class="icon-pen2"></i>
+               </div>
+                <div class="timeline-label">
+                <h2>Sentiment Analysis on the Sentiment140 Dataset  <span>Jun 2020</span></h2>
+                 <h4> George Mason University</h4>
+                 <ul>
+                    <li>Performed Sentiment Analysis on the Sentiment140 Dataset. It contains 1,600,000 tweets extracted using the twitter api.
+                        The tweets have been annotated (0 = negative, 4 = positive) and they can be used to detect sentiment.  </li>
+                    <li>Using Pre-trained Glove Embeddings on the tweets. GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations 
+                       showcase interesting linear substructures of the word vector space.</li>
+                       <li>LSTM Long Short Term Memory are a special kind of RNN, capable of learning long-term dependencies, are used for sentiment analysis.</li>
+                         <li>Technologies Used: <strong>Python, Matplotlib, Pandas, scikit-learn, Keras, NLTK, Gensim</strong></li>
+                         <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/aolle125/Sentiment-Analysis-on-Sentiment140-Dataset"
+              target="_blank" rel="tooltip" title="Sentiment Analysis on the Sentiment140 Dataset ">
+              <i class="fa fa-book"></i>
+            </a>
+                </ul>
+                
+               </div>
+            </div>
+         </article>
+
+         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+            <div class="timeline-entry-inner">
+               <div class="timeline-icon color-2">
+                  <i class="icon-pen2"></i>
+               </div>
+                <div class="timeline-label">
+                <h2>YOLO Object Detection on PASCAL VOC <span>Jun 2020</span></h2>
+                 <h4> George Mason University</h4>
+                 <ul>
+                    <li>Implemented a multi-label image classifier and a YOLO-like object detector on the PASCAL VOC 2007 dataset
+                        using PyTorch and a Deep Learning VM instance from Google Cloud Platform </li>
+                    <li>Designed and trained a deep convolutional network to predict a binary present/absent image-level label for each of the 
+                       20 PASCAL classes and developed a network structure inspired by DetNet for object detection .</li>
+               
+                         <li>Technologies Used: <strong>Python, GCP, PyTorch</strong></li>
+                         <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/aolle125/YOLO-Object-Detection-on-PASCAL-VOC"
+              target="_blank" rel="tooltip" title="YOLO Object Detection on PASCAL VOC ">
+              <i class="fa fa-book"></i>
+            </a>
+                </ul>
+                
+               </div>
+            </div>
+         </article>
+
+           
+           
+</div>
+          
+          
+        </div>
+     </div>
+ </div>
+</div>
+</div>
